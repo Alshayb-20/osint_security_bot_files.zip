@@ -1,0 +1,7 @@
+services:
+  - type: we
+  
+    name: osint-bot
+    env: python
+    buildCommand: ""
+    startCommand: python osint_telegram_webhook_bot.py
